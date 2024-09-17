@@ -1,0 +1,22 @@
+{
+        "data-root":"/media/40T/docker",
+        "registry-mirrors": ["https://dockerhub.azk8s.cn","https://hub-mirror.c.163.com"],
+    "exec-opts": ["native.cgroupdriver=cgroupfs"],
+    "log-driver": "json-file",
+    "insecure-registries": [
+                            "192.168.2.100:5000",
+                            "docker.kaolayouran.cn",
+                            "192.168.100.25"
+                            ],
+    "log-opts": {"max-size": "10m","max-file": "10"},
+    "exec-opts": ["native.cgroupdriver=cgroupfs"],
+    "runtimes": {
+                "nvidia": {
+                                "path": "/usr/bin/nvidia-container-runtime",
+                                            "runtimeArgs": []
+                                                        }
+                    },
+                         "exec-opts": ["native.cgroupdriver=cgroupfs"],
+                         "default-runtime":"nvidia"
+
+}

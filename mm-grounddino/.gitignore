@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.deb
+*.html
+*.png
+*.jpg
+*.jpeg
+*.xml
+*.pth
+.vscode
+smokefirecf_work_dir/
+smokefirecf_work_d/
+resources/
+outputs/
+openness_checking_data/
+official_work_dir/
+official/
+data/
+weights/
+vpt/
+lisa/

@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/cxc/mm-grounddino/AlgoServerScript/algo_server_gdino-b_chinese.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args": [
+                // "/home/cxc/mm-grounddino/none_lora/mm-grounddino/configs/grounding_dino/grounding_dino_swin-b_finetune_16xb2_1x_firesmoke_copy.py",
+                "--weights", "/home/cxc/mm-grounddino/bertchinese_trail/best_coco_bbox_mAP_epoch_1.pth",
+                "--config","/home/cxc/mm-grounddino/none_lora/mm-grounddino/configs/grounding_dino/grounding_dino_swin-b_finetune_16xb2_1x_firesmoke_copy_chinese.py",
+                "--type","image",
+                "--device","cuda:5"
+                // "/home/cxc/OV-DINO/OV-DINO/inits/ovdino/ovdino_swint_og-coco50.6_lvismv39.4_lvis32.2.pth",
+                // "/home/cxc/OV-DINO/OV-DINO/wkdrs/eval_ovdino"
+                
+            ]
+        }
+    ]
+}

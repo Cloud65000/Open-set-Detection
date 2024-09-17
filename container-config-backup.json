@@ -1,0 +1,298 @@
+[
+    {
+        "Id": "947935d8f355d44b09b95349d0a0072f05b4bfdd0bc8ac263d39c48c1c5fb015",
+        "Created": "2024-05-21T07:44:22.7755389Z",
+        "Path": "/bin/bash",
+        "Args": [],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 552101,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2024-07-30T09:19:59.291924675Z",
+            "FinishedAt": "2024-07-30T07:29:23.434106005Z"
+        },
+        "Image": "sha256:adac40231d1ea9f48d19334269e0a9c2c1882bfee8b33d6e911a1aeed81902de",
+        "ResolvConfPath": "/media/40T/docker/containers/947935d8f355d44b09b95349d0a0072f05b4bfdd0bc8ac263d39c48c1c5fb015/resolv.conf",
+        "HostnamePath": "/media/40T/docker/containers/947935d8f355d44b09b95349d0a0072f05b4bfdd0bc8ac263d39c48c1c5fb015/hostname",
+        "HostsPath": "/media/40T/docker/containers/947935d8f355d44b09b95349d0a0072f05b4bfdd0bc8ac263d39c48c1c5fb015/hosts",
+        "LogPath": "/media/40T/docker/containers/947935d8f355d44b09b95349d0a0072f05b4bfdd0bc8ac263d39c48c1c5fb015/947935d8f355d44b09b95349d0a0072f05b4bfdd0bc8ac263d39c48c1c5fb015-json.log",
+        "Name": "/elastic_davinci",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": [
+            "99b66c1804318fc26663f99ffed16296a3f83c0a6a518fb698ba81cd6e86c3ac",
+            "5be861c408b5f52adbae99d3a79157bb4f86416e449a639b6d608f9ce8b7c897",
+            "465c0a5e6cb34e8de54336a9ca945fdbbb5143f1244d8bd5026627cf108a1fc1",
+            "17f326405c4f5d2335a9134b73dcf7afcc5e0aa94454813987f213d962cf6cbc",
+            "addfe6bc31be05dd31b5ee2dbda7dff9e3e6a02ef7c88da3216c186627378126",
+            "e4bce22dba302e689ed5efe9fc888d64e57c733042b0442fa55c656451310e41"
+        ],
+        "HostConfig": {
+            "Binds": [
+                "/tmp/.X11-unix:/tmp/.X11-unix",
+                "/etc/timezone:/etc/timezone",
+                "/home:/home",
+                "/home/cxc:/home/cxc"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {
+                    "max-file": "10",
+                    "max-size": "10m"
+                }
+            },
+            "NetworkMode": "bridge",
+            "PortBindings": {
+                "22/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8043"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                23,
+                124
+            ],
+            "CapAdd": [
+                "SYS_PTRACE"
+            ],
+            "CapDrop": null,
+            "CgroupnsMode": "host",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": [
+                "seccomp=unconfined"
+            ],
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 34359738368,
+            "Runtime": "nvidia",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": [
+                {
+                    "Driver": "",
+                    "Count": -1,
+                    "DeviceIDs": null,
+                    "Capabilities": [
+                        [
+                            "gpu"
+                        ]
+                    ],
+                    "Options": {}
+                },
+                {
+                    "Driver": "",
+                    "Count": -1,
+                    "DeviceIDs": null,
+                    "Capabilities": [
+                        [
+                            "gpu"
+                        ]
+                    ],
+                    "Options": {}
+                }
+            ],
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/media/40T/docker/overlay2/fab2fdbd0ad79b9c7af5e3b042777d417317bee841114eab0cc9d938c110e48f-init/diff:/media/40T/docker/overlay2/50b3dedf68b3fbcf3756908c89a262d459941ad3b4a56161e9f3399caa2cd788/diff:/media/40T/docker/overlay2/441ad217209d0c0061d667fd730a1e75e717c2680a53d5cacaec1abfe180f2b5/diff:/media/40T/docker/overlay2/be53e5c11cede897cd725a89fb6430818681065f78274b3e49178982fb596988/diff:/media/40T/docker/overlay2/c43e493243719fe316efca5f7bcf43cc2eb170200ef7fd327596ca89fa9385dd/diff:/media/40T/docker/overlay2/0390b87d8f337495b99f0285af9b886319fdc448b0b013e22018cec5dc354bfc/diff:/media/40T/docker/overlay2/85110a3580f4d262ebd2b2c4a6a0ca2ae0fd81ea20cdeb6ac94b089652edeaf6/diff:/media/40T/docker/overlay2/74ca59664544e212b647623481df52d86e30cdb72c84746277d50c588f511ad6/diff:/media/40T/docker/overlay2/d631c1a4d1f3c12ca411119deea68cb90b0c43554fa09fa6328a2696b8ff76d8/diff:/media/40T/docker/overlay2/f00641a0ceb5a6f35ad65e013aff943ab7974ccc1473258cdb4f82d7456476ab/diff:/media/40T/docker/overlay2/06072074a897bb7ebe858e4ffb7dfbe8a22c5b36ceaebe98b497b32b826e34ba/diff:/media/40T/docker/overlay2/5d54ed10880c43f0c5338b3461fd899b744bece933384d5611c29f37e13fb4e9/diff:/media/40T/docker/overlay2/46a6cf26f677b0f90c9069deccb9b6f85d25a6cc5df06c60780638fdae9b039e/diff:/media/40T/docker/overlay2/829fcdfa917811fc03dc2acd15f94d9035494f7a26789d75dbfe06e23ce9d3b5/diff:/media/40T/docker/overlay2/f5db52d432731a907f858f760bc9fbd7dd11c6c0997f2b2694800cac7c3f4433/diff:/media/40T/docker/overlay2/2756295bb92c5c164209aa9257fdb2758378190c94e0b5e4ef8336d02c11a9fb/diff:/media/40T/docker/overlay2/d495e0eb7cdd34402faa5281c7e135a05e75dcb4b734c6d80e57f494ed5e2890/diff",
+                "MergedDir": "/media/40T/docker/overlay2/fab2fdbd0ad79b9c7af5e3b042777d417317bee841114eab0cc9d938c110e48f/merged",
+                "UpperDir": "/media/40T/docker/overlay2/fab2fdbd0ad79b9c7af5e3b042777d417317bee841114eab0cc9d938c110e48f/diff",
+                "WorkDir": "/media/40T/docker/overlay2/fab2fdbd0ad79b9c7af5e3b042777d417317bee841114eab0cc9d938c110e48f/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/etc/timezone",
+                "Destination": "/etc/timezone",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/home",
+                "Destination": "/home",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/home/cxc",
+                "Destination": "/home/cxc",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/tmp/.X11-unix",
+                "Destination": "/tmp/.X11-unix",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "947935d8f355",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "22/tcp": {}
+            },
+            "Tty": true,
+            "OpenStdin": true,
+            "StdinOnce": false,
+            "Env": [
+                "DISPLAY=",
+                "NVIDIA_DRIVER_CAPABILITIES=video,compute,utility",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/python3.9.18/bin",
+                "LD_LIBRARY_PATH=:/usr/local/python3.9.18/lib"
+            ],
+            "Cmd": [
+                "/bin/bash"
+            ],
+            "Image": "192.168.100.25/algolib/mm-grounding-dino:demo",
+            "Volumes": null,
+            "WorkingDir": "/data/mmdetection/demo",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "20.04"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "ac865057fa500c9f89fa6bc9a29bfb79cd3c52a389a906a894b85fd82e7c31e5",
+            "SandboxKey": "/var/run/docker/netns/ac865057fa50",
+            "Ports": {
+                "22/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "8043"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "8043"
+                    }
+                ]
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "eb3b2f79d7db8295d5769ad99e44ab89f9ae871ae8f8c7468078a6ea6e0a04cb",
+            "Gateway": "172.17.0.1",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "172.17.0.2",
+            "IPPrefixLen": 16,
+            "IPv6Gateway": "",
+            "MacAddress": "02:42:ac:11:00:02",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "MacAddress": "02:42:ac:11:00:02",
+                    "NetworkID": "69f4595e39509762a3f86f024838d967f96beb05382c1fe82b0526676087129d",
+                    "EndpointID": "eb3b2f79d7db8295d5769ad99e44ab89f9ae871ae8f8c7468078a6ea6e0a04cb",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DriverOpts": null,
+                    "DNSNames": null
+                }
+            }
+        }
+    }
+]
